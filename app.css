@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
 body {
   text-align: center;
   margin: 0;
   padding: 0;
+  font-family: 'PT Sans Narrow', sans-serif !important;
   background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/06/12879/90af7a81684e21186ebbdb1c437c2c1b.jpg");
   font-family: 'Open Sans Condensed', sans-serif;
   background-size: cover;
@@ -9,6 +12,18 @@ body {
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+section#about {
+  border: 5px solid #DAF927;
+  height: 40%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/10/13699/6e07ade0cfe8ec9f84fd2d4b3fa7fe60-1000.jpg");
+}
+
+section#about p {
+  padding: 40px 80px 40px 80px;
 }
 
 div#first_pair {
@@ -38,4 +53,10 @@ div.links p {
   margin-left: 10px;
   margin-right: 10px;
   border: 2px solid blue;
+}
+
+@media screen and (max-width: 530px) {
+  section#about {
+    height: 60%;
+  }
 }
