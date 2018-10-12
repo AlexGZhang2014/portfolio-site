@@ -16,14 +16,29 @@ body {
 
 section#about {
   border: 5px solid #DAF927;
-  height: 40%;
+  height: 45%;
   background-size: cover;
   background-attachment: fixed;
   background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/10/13699/6e07ade0cfe8ec9f84fd2d4b3fa7fe60-1000.jpg");
 }
 
 section#about p {
-  padding: 40px 80px 40px 80px;
+  padding: 10px 80px 10px 80px;
+}
+
+@media screen and (max-width: 530px) {
+  section#about {
+    height: 60%;
+  }
+}
+
+section#projects {
+  border: 5px solid green;
+}
+
+section#contact {
+  border: 5px solid #003366;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/21/15788/416c914ed04348d43a5cd9e8ea24962b-1000.jpg");
 }
 
 div#first_pair {
@@ -40,6 +55,8 @@ div#third_pair {
 
 div.project {
   flex: 1;
+  border: 5px solid #CC0099;
+  margin: 5px;
 }
 
 div.links {
@@ -55,8 +72,15 @@ div.links p {
   border: 2px solid blue;
 }
 
-@media screen and (max-width: 530px) {
-  section#about {
-    height: 60%;
-  }
+div#contact_details {
+  display: flex;
+  justify-content: center;
+}
+
+div#contact_details p {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid teal;
+  background-color: green;
 }
