@@ -15,7 +15,7 @@ body {
 }
 
 section#about {
-  height: 45%;
+  height: 50%;
   background-size: cover;
   background-attachment: fixed;
   background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/10/13699/6e07ade0cfe8ec9f84fd2d4b3fa7fe60-1000.jpg");
@@ -25,9 +25,14 @@ section#about p {
   padding: 10px 80px 10px 80px;
 }
 
+section#about h1 {
+  padding-top: 10px;
+  border: 5px groove #33CCFF;
+}
+
 @media screen and (max-width: 530px) {
   section#about {
-    height: 60%;
+    height: 70%;
   }
 }
 
