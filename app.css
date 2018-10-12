@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/06/12879/90af7a81684e21186ebbdb1c437c2c1b.jpg");
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div#first_pair {
+  display: flex;
+}
+
+div#second_pair {
+  display: flex;
+}
+
+div#third_pair {
+  display: flex;
+}
+
+div.project {
+  flex: 1;
+}
+
+div.links {
+  display: flex;
+  justify-content: center;
+}
+
+div.links p {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid blue;
+}
