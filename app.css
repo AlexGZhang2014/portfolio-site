@@ -15,7 +15,6 @@ body {
 }
 
 section#about {
-  border: 5px solid #DAF927;
   height: 45%;
   background-size: cover;
   background-attachment: fixed;
@@ -32,12 +31,7 @@ section#about p {
   }
 }
 
-section#projects {
-  border: 5px solid green;
-}
-
 section#contact {
-  border: 5px solid #003366;
   background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/21/15788/416c914ed04348d43a5cd9e8ea24962b-1000.jpg");
 }
 
@@ -55,7 +49,10 @@ div#third_pair {
 
 div.project {
   flex: 1;
-  border: 5px solid #CC0099;
+  border: 5px ridge #00CC33;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin: 5px;
 }
 
@@ -70,6 +67,7 @@ div.links p {
   margin-left: 10px;
   margin-right: 10px;
   border: 2px solid blue;
+  background-color: #66FFFF;
 }
 
 div#contact_details {
@@ -79,8 +77,8 @@ div#contact_details {
 
 div#contact_details p {
   flex: 1;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   border: 2px solid teal;
-  background-color: green;
+  background-color: #CCFFFF;
 }
